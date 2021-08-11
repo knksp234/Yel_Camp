@@ -1,0 +1,20 @@
+<%- include('../partials/header'); -%>
+
+<h1>This is show template</h1>
+
+<p><%= data.name %></p>
+<img src="<%= data.image %>">
+<p><%= data.description %></p>
+
+<p>
+    <a class="btn btn-success" href="/campgrounds/<%= data._id %>/comments/new">Add new Comment</a>
+</p>
+
+<% data.comments.forEach(function(comment)
+{ %>
+    <p>
+        <strong> <%= comment.author %> - <%= comment.text %> </strong>
+    </p>
+<% }); %>
+
+<%- include('../partials/footer'); -%>

@@ -1,0 +1,17 @@
+
+.thumbnail img
+{
+ width:100%;
+}
+.thumbnail{
+    padding: 0px;
+}
+.thumbnail .caption-full p{
+    padding: 9px;
+}
+#inline{
+    display: inline;
+}
+.inline{
+    display: inline;
+}
