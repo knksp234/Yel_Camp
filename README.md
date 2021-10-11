@@ -1,2 +1,2 @@
 # Yel_Camp
-https://yelpcampprod1.herokuapp.com/campgrounds
+https://yelpcampprod1.herokuapp.com
